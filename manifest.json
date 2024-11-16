@@ -3,7 +3,7 @@
     "name": "Hide YouTube Shorts",
     "version": "1.0",
     "description": "Hides YouTube Shorts videos from the homepage and recommendations.",
-    "permissions": ["storage"],
+    "permissions": [],
     "content_scripts": [
       {
         "matches": ["*://www.youtube.com/*"],

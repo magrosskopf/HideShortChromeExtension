@@ -1,6 +1,5 @@
 (function() {
-    function hideShorts() {
-      const shortsSelectors = [
+    const shortsSelectors = [
         'ytd-rich-grid-media[is-shorts]',
         'a[href*="/shorts/"]',
         'a[title="Shorts"]',
@@ -9,8 +8,9 @@
         'hortsLockupViewModelHostOutsideMetadata',
         'h2[aria-label="Shorts"]',
         'h2#title.style-scope.ytd-rich-shelf-renderer',    
-      ];
-  
+      ]
+    function hideShorts() {
+    
       shortsSelectors.forEach(selector => {
         const elements = document.querySelectorAll(selector);
         elements.forEach(el => el.style.display = 'none');

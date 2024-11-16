@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Hide YouTube Shorts",
+    "version": "1.0",
+    "description": "Hides YouTube Shorts videos from the homepage and recommendations.",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "icons": {
+    }
+  }

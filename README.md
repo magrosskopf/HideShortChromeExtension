@@ -1,5 +1,6 @@
 # HideShortChromeExtension
 Code for a Chrome Extension to hide all shorts related stuff on youtube.
+Available in the chrome extension store: https://chromewebstore.google.com/detail/hide-youtube-shorts/nonnmnlloklpmdpdfpffmmddbpdlmhjo
 
 ## Extend Selectors to hide
 1. Open content.js
